@@ -1,0 +1,242 @@
+/*242 Lines*/
+/* start Main Rulaz */
+
+.html en{width:1180px;}
+
+.container{ margin:auto;}
+
+.my-skills .skills button:hover {
+    background-color: #2DCC70;
+    color: #eee
+}
+
+.clearfix{ clear:both }
+/* End Main Rulaz */
+
+
+
+/* start Header */
+
+.header .slider {
+ background-image:url('../1.jpg');
+ -webkit-background-size:cover; /* CSS3 */
+ -moz-background-size:cover; /* CSS3 */
+ -o-background-size:cover; /* CSS3 */
+ background-size:cover; /* CSS3 */
+ height:500px; 
+}
+
+.header .slider .intro{padding-top:200px;color:#FFF;}
+
+.header .slider .intro h2{
+ margin:0 auto;
+ font-size:50px;
+ width:600px;
+ border-top:5px solid #FFF;
+ border-bottom:5px solid #FFF;
+ padding:5px 0; 
+ color:currentColor; 
+}
+
+.header .slider .intro button {
+ background:none;
+ margin-top:50px;
+ font-size:20px;
+ border:2px solid #fff;
+ font-weight:bold;
+ padding:10px 30px;
+ 
+}
+
+.header .navbar {background-color:#060600; color:#FFF;overflow:hidden}
+
+.header .navbar h2{color:currentColor}
+
+.header .navbar h2 span{color:#2ecc71}
+
+.header .navbar ul{
+ list-style:none;
+ padding-left:0;
+ overflow:hidden;
+ float:right    
+}
+
+.header .navbar ul li{float:left;padding:10px}
+
+.header .navbar ul li a{color:#FFF; text-decoration:none;}
+
+.active{background-color:#308576}
+
+.header .navbar ul,
+.header .navbar ul li a:hover {color:#308576}
+ /* End Header */
+
+/* start features */
+
+.features {overflow:hidden;padding-top:40px;padding-bottom:0px}
+
+.features .feat {float:left;width: 372px;height:300px; }
+
+.features .feat p{width:350px}
+/* End features */
+
+/* Start About Me */
+
+.about-me {background-color:#F2F2F2;overflow:hidden; }
+
+.about-me .images{width:40%}
+
+.about-me .images imag{width:100%}
+
+.about-me .info{width:60%;}
+
+.about-me .info h2{margin:40px 0 10px 65px;}
+
+.about-me .info > p{margin:0 70px 15px;}
+
+.about-me .info > p:last-of-type {margin-top:30px;}
+
+.about-me .info .hobbies{overflow:hidden;margin:20px 0 0 40px;}
+
+.about-me .info .hobbies .content{width:50%;min-height:100px;overflow:hidden;}
+
+.about-me .info .hobbies .content .icon {width:20%; margin-right:5%;}
+
+.about-me .info .hobbies .content .icon img {max-width:65px;margin:20px 10px 0 0;}
+
+.about-me .info .hobbies .content .text {width:75%;}
+
+
+/* End About Me */
+
+/* Start My Skills */
+
+.my-skills{padding-top:30px;padding-bottom:30px;overflow:hidden}
+
+.my-skills .skills,
+.my-skills .progress{width:100%;}
+
+.my-skills .skills h2{}
+
+.my-skills .skills p{}
+
+.my-skills .skills h2{margin:40px 0 10px 40px;}
+
+.my-skills .skills p{margin:0 10px 40px;}
+
+.my-skills .skills p:last-of-type {margin-top:30px;}
+
+.my-skills .skills button{
+ background:none;
+ border:3px solid #2DCC70;
+ padding:10px 30px;
+ color:#2DCC70; 
+ margin-top:20px;
+ margin-left:40px; 
+}
+
+/* End My Skills */
+
+/* Start Resume */
+
+.resume{
+ background-color:#F2F2F2; 
+ padding-top:30px;
+ padding-bottom:30px;
+}
+
+/* End Resume */
+
+/* Start My Education */
+
+.my-education{padding-top:30px;padding-bottom:30px;overflow:hidden}
+
+.my-education .main,
+.my-education .Exp{width:100%;}
+
+.a{width:25%}
+
+/* End My Education */
+
+/* Start Testimonials */
+
+.testimonials{
+ background-color:#F2F2F2; 
+ padding-top:30px;
+ padding-bottom:30px; 
+}
+
+.testimonials ul{list-style:none;padding-left:0;text-align:center}
+
+.testimonials ul li{width:15px;height:15px;border:2px solid #2Dcc70;display:inline-block}
+
+.testimonials ul li:hover{background-color:#2Dcc70;}
+
+/* End Testimonials */
+
+
+/* Start Portfolio */
+
+.portfolio{padding-top:30px;padding-bottom:30px}
+
+.portfolio .our-work{overflow:hidden; background-color: #c104ff;}
+
+.portfolio .our-work > div {float:left;width:33.333333%;margin-bottom:15%;}
+
+.portfolio .our-work > div img {width:90%;margin:8px;box-shadow:10px 10px 10px #ccc}
+
+/* End Portfolio */
+
+/* Start Contact Me */
+
+.contact {background-color:darkviolet;overflow:hidden;padding-top:50px;padding-bottom:25%}
+
+.contact h2{margin-left:40px}
+
+.contact p {color:aquamarine;margin-left:40px}
+
+.contact .info,
+.contact .from {width:50%;}
+
+.contact .from .label {width:50%} 
+
+/* End Contact Me */
+
+/* Start Footer */
+
+.footer {
+ background-color:black;
+ color:#686E71;
+ padding:20px 0;
+ text-align:center;
+ overflow:hidden; 
+}
+
+.flooter ul{
+ list-style:none;
+ padding-left:0;
+ margin:0;
+ float:right;
+}
+
+.footer ul li {display:inline-block }
+
+.fa-facebook-f:before {color:blue}
+.fa-twitter:before {color:cyan}
+.fa-tumblr:before {color:aliceblue}
+.fa-whatsapp:before {color:chartreuse}
+
+/* End Footer */
+
+/*start My Framework*/
+ 
+
+
+.fl-left{float:left}
+
+p{line-height:1.7;color:#888}
+
+h2 , h3{color:aqua}
+
+.text-center{text-align:center;}
+/*End My Framework */
